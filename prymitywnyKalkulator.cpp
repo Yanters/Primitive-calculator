@@ -27,6 +27,8 @@ int main()
         switch(wybor)
         {
         case '1':
+            system("cls");
+            cout << "Wybrales opcje: DODAWANIE"<<endl ;
             cout << "Podaj liczbe nr 1: " ;
 
     if(!(cin>>zmiena1))
@@ -44,6 +46,8 @@ int main()
             cout << "Suma = " << zmiena1 + zmiena2;
         break;
         case '2':
+            system("cls");
+            cout << "Wybrales opcje: ODEJMOWANIE"<<endl ;
             cout << "Podaj liczbe nr 1: " ;
 
     if(!(cin>>zmiena1))
@@ -61,6 +65,8 @@ int main()
             cout << "Odejmowanie = " << zmiena1 - zmiena2;
         break;
         case '3':
+            system("cls");
+            cout << "Wybrales opcje: MNOZENIE"<<endl ;
             cout << "Podaj liczbe nr 1: " ;
 
     if(!(cin>>zmiena1))
@@ -78,6 +84,8 @@ int main()
             cout << "Iloczyn = " << zmiena1 * zmiena2;
         break;
         case '4':
+            system("cls");
+            cout << "Wybrales opcje: DZIELENIE" <<endl;
             cout << "Podaj liczbe nr 1: " ;
 
     if(!(cin>>zmiena1))
